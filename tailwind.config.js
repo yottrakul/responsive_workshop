@@ -7,7 +7,9 @@ module.exports = {
       'secondary': '#F5F4F9',
       'gray': '#E7E7E7',
       'dark-gray': '#C2C2C2',
-      'white': '#FFF'
+      'white': '#FFF',
+      'light-purple': '#936EEA',
+      'dark-purple': '#090C35',
     },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
