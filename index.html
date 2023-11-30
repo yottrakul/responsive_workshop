@@ -1,231 +1,574 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/css/global.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="/css/swiper-bundle.min.css"
-/>
-<link
-  rel="stylesheet"
-  href="/css/custom-swiper-style.css"
-/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/global.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/custom-swiper-style.css" />
 
-  <title>frontend-responsive</title>
-</head>
-<body class="font-roboto">
-  <main>
-
-    <section class="line-height-normal mt-[20px] md:mt-[50px] lg:mt-[100px] md:relative">
-
+    <title>frontend-responsive</title>
+  </head>
+  <body class="font-roboto">
+    <main class="overflow-hidden">
+      <section
+        class="line-height-normal mt-[20px] md:relative md:mt-[50px] lg:mt-[100px]"
+      >
         <!-- heading -->
-        <h1 class="text-[3.125rem] md:text-[5.625rem] text-gray max-md:mx-[20px] mb-[15px] lg:mb-[10px] md:grid md:grid-cols-3 lg:grid-cols-2"><span class="md:col-start-2 md: col-span-2 md:ml-[50px] lg:ml-0">ATHLETS</span></h1>
+        <h1
+          class="mb-[15px] text-[3.125rem] text-gray max-md:mx-[20px] md:grid md:grid-cols-3 md:text-[5.625rem] lg:mb-[10px] lg:grid-cols-2"
+        >
+          <span class="md: col-span-2 md:col-start-2 md:ml-[50px] lg:ml-0"
+            >ATHLETS</span
+          >
+        </h1>
         <!-- heading -->
 
         <!-- Image and svg -->
-          <div class="relative flex justify-center md:absolute md:left-[-150px] md:top-[40px] lg:top-[-50px] lg:w-full lg:grid lg:grid-cols-2 lg:max-w-[1920px] lg:left-[42%] xl:left-[50%] lg:translate-x-[-50%] lg:z-10">
-            <div class="max-md:pl-[18px] relative md:absolute md:top-[0px] md:right-[0px]">
-              <div class="retangles absolute z-20 top-0 md:top-[-20px] md:left-[-319.77px] left-0 flex mt-[11px] md:mt-0 lg:hidden">
-                <svg class="relative opacity-30" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                  <mask id="path-1-outside-1_0_110" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17" fill="black">
-                  <rect fill="white" width="17" height="17"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"/>
-                  </mask>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z" fill="#5C37B7"/>
-                  <path d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z" fill="#9173E6" mask="url(#path-1-outside-1_0_110)"/>
-                  </svg>
-                  <svg class="relative ml-[7px] mt-[9px]" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <mask id="path-1-outside-1_0_110" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17" fill="black">
-                    <rect fill="white" width="17" height="17"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"/>
-                    </mask>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z" fill="#5C37B7"/>
-                    <path d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z" fill="#9173E6" mask="url(#path-1-outside-1_0_110)"/>
-                    </svg>
-              </div>
-            </div>
-            <!-- edit path -->
-            <div class="z-10 flex relative aspect-[200/281] md:aspect-[518/699] lg:aspect-[678/950] w-[200px] md:w-[518px] lg:w-[678px] lg:mx-auto">
-              <div class="path stroke-light-purple aspect-[178.893/197.234] md:aspect-[217.7/233.72] w-[89.44%] md:w-[42%] absolute top-[12.91px] left-0 md:top-[2.715%] md:left-[38.14%] lg:hidden">
-                <svg class="w-full h-full stro stroke-[3px] md:stroke-[5px]" xmlns="http://www.w3.org/2000/svg" width="182" height="201" viewBox="0 0 182 201" fill="none">
-                  <path d="M1.35938 199.145L180.252 1.91016"/>
-                  </svg>
-              </div>
-              <img  src="/imgs/football_man.png" alt="football-man" class="mx-auto absolute inset-0 w-full h-full">
-            </div>
-          </div>
-          <!-- Image and svg -->
-    
-          <!-- text content -->
-            <div class="relative md:flex-1">
-              <div class="swiper mySwiper bg-secondary max-md:mt-[-45px]">
-                <ol class="swiper-wrapper slide-wrapper max-md:pt-[60px] pb-[5px] md:pb-0">
-                  <li class="swiper-slide md:bg-white">
-                    <div class="max-w-[1400px] mx-auto md:grid md:grid-cols-3 lg:grid-cols-2 md:min-h-[178px] lg:min-h-[210px] md:items-center">
-                      <div class="max-md:px-[20px] md:col-start-2 md:col-span-2 pr-[30px] md:my-[30px] lg:my-[60px] md:ml-[50px] lg:ml-0">
-                        <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                          <div class="md:space-y-[4px]">
-                            <span class="text-[0.875rem] md:text-[1.125rem] tracking-[1.5px]">01</span>
-                            <div class="bg-primary rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                          </div>
-                          <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">CONNECTION</h2>
-                        </div>
-                        <p class="text-[0.9375rem] md:text-[1.125rem] md:leading-[28px]">Connect with coaches directly, you can ping coaches to view profile.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="swiper-slide md:bg-secondary">
-                    <div class="max-w-[1500px] mx-auto md:grid md:grid-cols-3 lg:grid-cols-2 md:min-h-[234px] lg:min-h-[266px] md:items-center">
-                      <div class="max-md:px-[20px] md:col-start-2 md:col-span-2 pr-[30px] md:my-[30px] lg:my-[60px] md:ml-[50px] lg:ml-0">
-                        <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                          <div class="md:space-y-[4px]">
-                            <span class="text-[0.875rem] md:text-[1.125rem] tracking-[1.5px]">02</span>
-                            <div class="bg-primary rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                          </div>
-                          <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">COLLABORATION</h2>
-                        </div>
-                        <p class="text-[0.9375rem] md:text-[1.125rem] lg:text-[20px] md:leading-[28px]">Work with other student athletes to increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="swiper-slide md:bg-primary">
-                    <div class="max-w-[1500px] mx-auto md:grid md:grid-cols-3 lg:grid-cols-2 md:min-h-[178px] lg:min-h-[238px] md:items-center">
-                      <div class="max-md:px-[20px] md:col-start-2 md:col-span-2 pr-[30px] md:my-[30px] lg:my-[60px] md:ml-[50px] lg:ml-0">
-                        <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                          <div class="md:space-y-[4px]">
-                            <span class="text-[0.875rem] md:text-[1.125rem] tracking-[1.5px]">03</span>
-                            <div class="bg-primary md:bg-white rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                          </div>
-                          <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">GROWTH</h2>
-                        </div>
-                        <p class="text-[0.9375rem] max-w-[700px] md:text-[1.125rem] md:leading-[28px] md:text-white lg:text-[20px]">Resources and tools for you to get better as a student Athelte. 
-                          Access to training classes, tutor sessions, etc</p>
-                      </div>
-                    </div>
-                  </li>
-                </ol>
-                  <div class="swiper-pagination max-md:py-[25px]">
-                  </div>
-              </div>
-            </div>
-          <!-- text content -->
-    </section>
-
-    <section class="line-height-normal mt-[20px] md:mt-[50px] lg:mt-[100px] md:relative overflow-hidden">
-      
-      <!-- heading -->
-      <h1 class="text-[3.125rem] md:text-[5.625rem] text-gray max-md:mx-[20px] mb-[15px] lg:mb-[10px] md:grid md:grid-cols-3 lg:grid-cols-2"><span class="md:col-start-1 md:col-span-2 md:ml-[30px]">PLAYERS</span></h1>
-      <!-- heading -->
-      
-
-      <!-- Image and svg -->
-      <div class="relative flex justify-center md:absolute md:top-0 md:right-0">
-          
-
-        <div class="z-10 flex relative top-0 aspect-[302/249] md:aspect-[691/568] w-[302px] md:w-[691px] md:top-[-19px] md:right-[-254px]">
-          <div class="retangles absolute z-20 top-0 left-[49px] flex md:top-[12.67%] md:left-[29.23%]">
-            <svg class="relative opacity-30" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-              <mask id="path-1-outside-1_0_110" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17" fill="black">
-              <rect fill="white" width="17" height="17"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"/>
-              </mask>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z" fill="#5C37B7"/>
-              <path d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z" fill="#9173E6" mask="url(#path-1-outside-1_0_110)"/>
-              </svg>
-              <svg class="relative ml-[7px] mt-[9px]" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                <mask id="path-1-outside-1_0_110" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17" fill="black">
-                <rect fill="white" width="17" height="17"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"/>
+        <div
+          class="relative flex justify-center md:absolute md:left-[-150px] md:top-[40px] lg:left-[42%] lg:top-[-50px] lg:z-10 lg:grid lg:w-full lg:max-w-[1920px] lg:translate-x-[-50%] lg:grid-cols-2 xl:left-[50%]"
+        >
+          <div
+            class="relative max-md:pl-[18px] md:absolute md:right-[0px] md:top-[0px]"
+          >
+            <div
+              class="retangles absolute left-0 top-0 z-20 mt-[11px] flex md:left-[-319.77px] md:top-[-20px] md:mt-0 lg:hidden"
+            >
+              <svg
+                class="relative opacity-30"
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+              >
+                <mask
+                  id="path-1-outside-1_0_110"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="17"
+                  height="17"
+                  fill="black"
+                >
+                  <rect fill="white" width="17" height="17" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  />
                 </mask>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z" fill="#5C37B7"/>
-                <path d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z" fill="#9173E6" mask="url(#path-1-outside-1_0_110)"/>
-                </svg>
-          </div>
-          <!-- plus 3 -->
-          <svg class="absolute right-[21px] bottom-[85px]" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-            <mask id="path-1-outside-1_0_110" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="17" fill="black">
-            <rect fill="white" width="17" height="17"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"/>
-            </mask>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z" fill="#5C37B7"/>
-            <path d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z" fill="#9173E6" mask="url(#path-1-outside-1_0_110)"/>
-            </svg>
-          <!-- plus 3 -->
-          <div class="path aspect-[106.35/123.2] md:aspect-[178.88/207.22] w-[35.21%] md:w-[25.88%] absolute left-[15.85%] bottom-[6.35%] md:left-[23%] md:bottom-[17%]">
-            <svg class="stroke-light-purple stroke-[3px] md:stroke-[5px] h-full w-full" xmlns="http://www.w3.org/2000/svg" width="183" height="211" viewBox="0 0 183 211" fill="none">
-              <path d="M2 209.117L180.877 1.8927" stroke="#936EEA" stroke-width="5"/>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  fill="#5C37B7"
+                />
+                <path
+                  d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z"
+                  fill="#9173E6"
+                  mask="url(#path-1-outside-1_0_110)"
+                />
               </svg>
-          </div>
-          <div class="path aspect-[76.69/89.84] md:hidden w-[25.39%] absolute left-[65.19%] bottom-[54.33%] md:left-0 md:bottom-0">
-              <svg class="stroke-light-purple stroke-[3px] md:stroke-[5px] left-[65.19%] top-[7.95%] h-full w-full" xmlns="http://www.w3.org/2000/svg" width="80" height="93" viewBox="0 0 80 93" fill="none">
-                <path d="M1.89062 91.1601L78.5816 1.32233" stroke="#936EEA"/>
-                </svg>
-          </div>
-
-          <img  src="/imgs/basketball_man.png" alt="basketball-man" class="mx-auto absolute inset-0 w-full h-full">
-        </div>
-        
-      </div>
-        <!-- Image and svg -->
-  
-        <!-- text content -->
-          <div class="relative md:flex-1">
-            <div class="swiper mySwiper bg-secondary max-md:mt-[-45px]">
-              <ol class="swiper-wrapper slide-wrapper max-md:pt-[60px] pb-[5px] md:pb-0">
-                <li class="swiper-slide md:bg-white md:grid md:grid-cols-3 lg:grid-cols-2">
-                  <div class="max-w-[1500px] lg:max-w-[717px] lg:justify-self-end md:col-span-2 lg:col-span-1 max-md:mx-auto md:min-h-[206px] lg:min-h-[238px] md:items-end md:px-[30px] lg:pr-0">
-                    <div class="max-md:px-[20px] md:col-start-1 md:col-span-2 md:my-[30px] lg:my-[60px]">
-                      <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                        <div class="md:space-y-[4px]">
-                          <span class="text-[0.875rem] md:text-[1.125rem] tracking-[1.5px]">01</span>
-                          <div class="bg-primary rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                        </div>
-                        <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">CONNECTION</h2>
-                      </div>
-                      <p class="text-[0.9375rem] md:text-[1.125rem] lg:text-[1.25rem] md:leading-[28px] ">Connect with talented athlete directly, you can watch their skills through video showreels directly from Surface 1.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="swiper-slide md:bg-secondary md:grid md:grid-cols-3 lg:grid-cols-2">
-                  <div class="max-w-[1500px] lg:max-w-[717px] lg:min-w-[717px] lg:justify-self-end md:col-span-2 lg:col-span-1 max-md:mx-auto md:min-h-[179px] lg:min-h-[210px] md:items-center md:px-[30px] lg:pr-0">
-                    <div class="max-md:px-[20px] md:col-start-1 md:col-span-2 md:my-[30px] lg:my-[60px]">
-                      <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                        <div class="md:space-y-[4px]">
-                          <span class="text-[0.875rem] md:text-[1.125rem] tracking-[1.5px]">02</span>
-                          <div class="bg-primary rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                        </div>
-                        <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">COLLABORATION</h2>
-                      </div>
-                      <p class="text-[0.9375rem] md:text-[1.125rem] lg:text-[20px] md:leading-[28px]">Work with recruiter to increase your chances of finding
-                        talented athlete.</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="swiper-slide md:bg-dark-purple md:grid md:grid-cols-3 lg:grid-cols-2">
-                  <div class="max-w-[1500px] md:col-span-2 max-md:mx-auto md:min-h-[151px] lg:min-h-[210px] md:items-center md:px-[30px]">
-                    <div class="max-md:px-[20px] md:col-start-1 md:col-span-2 md:my-[30px] lg:my-[60px]">
-                      <div class="flex items-center gap-[10px] mb-[10px] md:mb-[20px]">
-                        <div class="md:space-y-[4px]">
-                          <span class="text-[0.875rem] text-primary md:text-[1.125rem] tracking-[1.5px]">03</span>
-                          <div class="bg-primary md:bg-white rounded-[2.5px] w-full md:w-[18.584px] h-[4px] md:h-[5px]"></div>
-                        </div>
-                        <h2 class="text-[1.75rem] md:text-[2.25rem] text-dark-gray tracking-[1.5px]">GROWTH</h2>
-                      </div>
-                      <p class="text-[0.9375rem] max-w-[700px] md:text-[1.125rem] md:leading-[28px] md:text-white lg:text-[20px]">Save your time, recruit proper athlets for your team.</p>
-                    </div>
-                  </div>
-                </li>
-              </ol>
-                <div class="swiper-pagination max-md:py-[25px]">
-                </div>
+              <svg
+                class="relative ml-[7px] mt-[9px]"
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+              >
+                <mask
+                  id="path-1-outside-1_0_110"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="17"
+                  height="17"
+                  fill="black"
+                >
+                  <rect fill="white" width="17" height="17" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  />
+                </mask>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  fill="#5C37B7"
+                />
+                <path
+                  d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z"
+                  fill="#9173E6"
+                  mask="url(#path-1-outside-1_0_110)"
+                />
+              </svg>
             </div>
           </div>
-        <!-- text content -->
-  </section>
+          <!-- edit path -->
+          <div
+            class="relative z-10 flex aspect-[200/281] w-[200px] md:aspect-[518/699] md:w-[518px] lg:mx-auto lg:aspect-[678/950] lg:w-[678px]"
+          >
+            <div
+              class="path absolute left-0 top-[12.91px] aspect-[178.893/197.234] w-[89.44%] stroke-light-purple md:left-[38.14%] md:top-[2.715%] md:aspect-[217.7/233.72] md:w-[42%] lg:hidden"
+            >
+              <svg
+                class="stro h-full w-full stroke-[3px] md:stroke-[5px]"
+                xmlns="http://www.w3.org/2000/svg"
+                width="182"
+                height="201"
+                viewBox="0 0 182 201"
+                fill="none"
+              >
+                <path d="M1.35938 199.145L180.252 1.91016" />
+              </svg>
+            </div>
+            <img
+              src="/imgs/football_man.png"
+              alt="football-man"
+              class="absolute inset-0 mx-auto h-full w-full"
+            />
+          </div>
+        </div>
+        <!-- Image and svg -->
 
-    <!-- <section class="line-height-normal mt-[20px]">
+        <!-- text content -->
+        <div class="relative md:flex-1">
+          <div class="swiper mySwiper bg-secondary max-md:mt-[-45px]">
+            <ol
+              class="swiper-wrapper slide-wrapper pb-[5px] max-md:pt-[60px] md:pb-0"
+            >
+              <li class="swiper-slide md:bg-white">
+                <div
+                  class="mx-auto max-w-[1400px] md:grid md:min-h-[178px] md:grid-cols-3 md:items-center lg:min-h-[210px] lg:grid-cols-2"
+                >
+                  <div
+                    class="pr-[30px] max-md:px-[20px] md:col-span-2 md:col-start-2 md:my-[30px] md:ml-[50px] lg:my-[60px] lg:ml-0"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] md:text-[1.125rem]"
+                          >01</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px]"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        CONNECTION
+                      </h2>
+                    </div>
+                    <p
+                      class="text-[0.9375rem] md:text-[1.125rem] md:leading-[28px]"
+                    >
+                      Connect with coaches directly, you can ping coaches to
+                      view profile.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide md:bg-secondary">
+                <div
+                  class="mx-auto max-w-[1500px] md:grid md:min-h-[234px] md:grid-cols-3 md:items-center lg:min-h-[266px] lg:grid-cols-2"
+                >
+                  <div
+                    class="pr-[30px] max-md:px-[20px] md:col-span-2 md:col-start-2 md:my-[30px] md:ml-[50px] lg:my-[60px] lg:ml-0"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] md:text-[1.125rem]"
+                          >02</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px]"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        COLLABORATION
+                      </h2>
+                    </div>
+                    <p
+                      class="text-[0.9375rem] md:text-[1.125rem] md:leading-[28px] lg:text-[20px]"
+                    >
+                      Work with other student athletes to increase visability.
+                      When you share and like other players videos it will
+                      increase your visability as a player. This is the team
+                      work aspect to Surface 1.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide md:bg-primary">
+                <div
+                  class="mx-auto max-w-[1500px] md:grid md:min-h-[178px] md:grid-cols-3 md:items-center lg:min-h-[238px] lg:grid-cols-2"
+                >
+                  <div
+                    class="pr-[30px] max-md:px-[20px] md:col-span-2 md:col-start-2 md:my-[30px] md:ml-[50px] lg:my-[60px] lg:ml-0"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] md:text-[1.125rem]"
+                          >03</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px] md:bg-white"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        GROWTH
+                      </h2>
+                    </div>
+                    <p
+                      class="max-w-[700px] text-[0.9375rem] md:text-[1.125rem] md:leading-[28px] md:text-white lg:text-[20px]"
+                    >
+                      Connect with coaches directly, you can ping coaches to
+                      view profile.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+            <div class="swiper-pagination max-md:py-[25px]"></div>
+          </div>
+        </div>
+        <!-- text content -->
+      </section>
+
+      <section
+        class="line-height-normal mt-[20px] md:relative md:mt-[50px] lg:mt-[100px]"
+      >
+        <!-- heading -->
+        <h1
+          class="mb-[15px] text-[3.125rem] text-gray max-md:mx-[20px] md:grid md:grid-cols-3 md:text-[5.625rem] lg:mb-[10px] lg:grid-cols-2"
+        >
+          <div
+            class="lg:col-start-1 lg:w-full lg:max-w-[717px] lg:justify-self-end"
+          >
+            <span
+              class="md: col-span-2 md:col-start-1 md:ml-[30px] lg:col-span-1 lg:justify-self-end lg:pl-[0px]"
+              >PLAYERS</span
+            >
+          </div>
+        </h1>
+        <!-- heading -->
+
+        <!-- Image and svg -->
+        <div
+          class="relative mx-auto flex justify-center md:absolute md:right-0 md:top-0 lg:left-[0%] lg:grid lg:w-full lg:max-w-[1920px] lg:grid-cols-2"
+        >
+          <div
+            class="relative top-0 z-10 flex aspect-[302/249] w-[302px] md:right-[-254px] md:top-[-19px] md:aspect-[691/568] md:w-[691px] lg:right-[-250px] lg:top-[-90px] lg:col-start-2 lg:aspect-[991/815] lg:w-[991px] lg:justify-self-end xl:right-[-150px] 2xl:right-[210px] 2xl:justify-self-start"
+          >
+            <div
+              class="retangles absolute left-[49px] top-0 z-20 flex md:left-[29.23%] md:top-[12.67%] lg:left-[29.6%] lg:top-[16%]"
+            >
+              <svg
+                class="relative opacity-30"
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+              >
+                <mask
+                  id="path-1-outside-1_0_110"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="17"
+                  height="17"
+                  fill="black"
+                >
+                  <rect fill="white" width="17" height="17" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  />
+                </mask>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  fill="#5C37B7"
+                />
+                <path
+                  d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z"
+                  fill="#9173E6"
+                  mask="url(#path-1-outside-1_0_110)"
+                />
+              </svg>
+              <svg
+                class="relative ml-[7px] mt-[9px]"
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+              >
+                <mask
+                  id="path-1-outside-1_0_110"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="17"
+                  height="17"
+                  fill="black"
+                >
+                  <rect fill="white" width="17" height="17" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  />
+                </mask>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                  fill="#5C37B7"
+                />
+                <path
+                  d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z"
+                  fill="#9173E6"
+                  mask="url(#path-1-outside-1_0_110)"
+                />
+              </svg>
+            </div>
+            <!-- plus 3 -->
+            <svg
+              class="absolute bottom-[85px] right-[21px] lg:bottom-[49%] lg:right-[20.3%]"
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+            >
+              <mask
+                id="path-1-outside-1_0_110"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="17"
+                height="17"
+                fill="black"
+              >
+                <rect fill="white" width="17" height="17" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                />
+              </mask>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8.5 1C8.22386 1 8 1.22386 8 1.5V8H1.5C1.22386 8 1 8.22386 1 8.5C1 8.77614 1.22386 9 1.5 9H8V15.5C8 15.7761 8.22386 16 8.5 16C8.77614 16 9 15.7761 9 15.5V9H15.5C15.7761 9 16 8.77614 16 8.5C16 8.22386 15.7761 8 15.5 8H9V1.5C9 1.22386 8.77614 1 8.5 1Z"
+                fill="#5C37B7"
+              />
+              <path
+                d="M8 8V9H9V8H8ZM8 9H9V8H8V9ZM9 9V8H8V9H9ZM9 8H8V9H9V8ZM9 1.5C9 1.77614 8.77614 2 8.5 2V0C7.67157 0 7 0.671575 7 1.5H9ZM9 8V1.5H7V8H9ZM1.5 9H8V7H1.5V9ZM2 8.5C2 8.77614 1.77614 9 1.5 9V7C0.671573 7 0 7.67157 0 8.5H2ZM1.5 8C1.77614 8 2 8.22386 2 8.5H0C0 9.32843 0.671575 10 1.5 10V8ZM8 8H1.5V10H8V8ZM9 15.5V9H7V15.5H9ZM8.5 15C8.77614 15 9 15.2239 9 15.5H7C7 16.3284 7.67157 17 8.5 17V15ZM8 15.5C8 15.2239 8.22386 15 8.5 15V17C9.32843 17 10 16.3284 10 15.5H8ZM8 9V15.5H10V9H8ZM15.5 8H9V10H15.5V8ZM15 8.5C15 8.22386 15.2239 8 15.5 8V10C16.3284 10 17 9.32843 17 8.5H15ZM15.5 9C15.2239 9 15 8.77614 15 8.5H17C17 7.67157 16.3284 7 15.5 7V9ZM9 9H15.5V7H9V9ZM8 1.5V8H10V1.5H8ZM8.5 2C8.22386 2 8 1.77614 8 1.5H10C10 0.671573 9.32843 0 8.5 0V2Z"
+                fill="#9173E6"
+                mask="url(#path-1-outside-1_0_110)"
+              />
+            </svg>
+            <!-- plus 3 -->
+            <div
+              class="path absolute bottom-[6.35%] left-[15.85%] aspect-[106.35/123.2] w-[35.21%] md:bottom-[17%] md:left-[23%] md:aspect-[178.88/207.22] md:w-[25.88%] lg:bottom-[6.5%] lg:left-[18.6%] lg:aspect-[262/304] lg:w-[26.48%]"
+            >
+              <svg
+                class="h-full w-full stroke-light-purple stroke-[3px] md:stroke-[5px]"
+                xmlns="http://www.w3.org/2000/svg"
+                width="183"
+                height="211"
+                viewBox="0 0 183 211"
+                fill="none"
+              >
+                <path
+                  d="M2 209.117L180.877 1.8927"
+                  stroke="#936EEA"
+                  stroke-width="5"
+                />
+              </svg>
+            </div>
+            <div
+              class="path absolute bottom-[54.33%] left-[65.19%] aspect-[76.69/89.84] w-[25.39%] md:bottom-0 md:left-0 md:hidden lg:bottom-[51.7%] lg:left-[66.6%] lg:block"
+            >
+              <svg
+                class="left-[65.19%] top-[7.95%] h-full w-full stroke-light-purple stroke-[3px] md:stroke-[5px] lg:hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="93"
+                viewBox="0 0 80 93"
+                fill="none"
+              >
+                <path d="M1.89062 91.1601L78.5816 1.32233" stroke="#936EEA" />
+              </svg>
+              <svg
+                class="max-lg:hidden lg:block"
+                xmlns="http://www.w3.org/2000/svg"
+                width="271"
+                height="316"
+                viewBox="0 0 271 316"
+                fill="none"
+              >
+                <path
+                  d="M2.89062 313.16L268.516 2"
+                  stroke="#936EEA"
+                  stroke-width="6"
+                />
+              </svg>
+            </div>
+
+            <img
+              src="/imgs/basketball_man.png"
+              alt="basketball-man"
+              class="absolute inset-0 mx-auto h-full w-full"
+            />
+          </div>
+        </div>
+        <!-- Image and svg -->
+
+        <!-- text content -->
+        <div class="relative md:flex-1">
+          <div class="swiper mySwiper bg-secondary max-md:mt-[-45px]">
+            <ol
+              class="swiper-wrapper slide-wrapper pb-[5px] max-md:pt-[60px] md:pb-0"
+            >
+              <li
+                class="swiper-slide md:grid md:grid-cols-3 md:bg-white lg:grid-cols-2"
+              >
+                <div
+                  class="max-w-[1500px] max-md:mx-auto md:col-span-2 md:min-h-[206px] md:items-end md:px-[30px] lg:col-span-1 lg:min-h-[238px] lg:w-full lg:max-w-[717px] lg:justify-self-end lg:pr-0"
+                >
+                  <div
+                    class="max-md:px-[20px] md:col-span-2 md:col-start-1 md:my-[30px] lg:my-[60px]"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] md:text-[1.125rem]"
+                          >01</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px]"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        CONNECTION
+                      </h2>
+                    </div>
+                    <p
+                      class="text-[0.9375rem] md:text-[1.125rem] md:leading-[28px] lg:text-[1.25rem]"
+                    >
+                      Connect with talented athlete directly, you can watch
+                      their skills through video showreels directly from Surface
+                      1.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="swiper-slide md:grid md:grid-cols-3 md:bg-secondary lg:grid-cols-2"
+              >
+                <div
+                  class="max-w-[1500px] max-md:mx-auto md:col-span-2 md:min-h-[179px] md:items-end md:px-[30px] lg:col-span-1 lg:min-h-[210px] lg:w-full lg:max-w-[717px] lg:justify-self-end lg:pl-[30px] lg:pr-0"
+                >
+                  <div
+                    class="max-md:px-[20px] md:col-span-2 md:col-start-1 md:my-[30px] lg:my-[60px]"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] md:text-[1.125rem]"
+                          >02</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px]"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        COLLABORATION
+                      </h2>
+                    </div>
+                    <p
+                      class="text-[0.9375rem] md:text-[1.125rem] md:leading-[28px] lg:text-[20px]"
+                    >
+                      Work with recruiter to increase your chances of finding
+                      talented athlete.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="swiper-slide md:grid md:grid-cols-3 md:bg-dark-purple lg:grid-cols-2"
+              >
+                <div
+                  class="max-w-[1500px] max-md:mx-auto md:col-span-2 md:min-h-[151px] md:items-end md:px-[30px] lg:col-span-1 lg:min-h-[210px] lg:w-full lg:max-w-[717px] lg:justify-self-end lg:pl-[30px] lg:pr-0"
+                >
+                  <div
+                    class="max-md:px-[20px] md:col-span-2 md:col-start-1 md:my-[30px] lg:my-[60px]"
+                  >
+                    <div
+                      class="mb-[10px] flex items-center gap-[10px] md:mb-[20px]"
+                    >
+                      <div class="md:space-y-[4px]">
+                        <span
+                          class="text-[0.875rem] tracking-[1.5px] text-primary md:text-[1.125rem]"
+                          >03</span
+                        >
+                        <div
+                          class="h-[4px] w-full rounded-[2.5px] bg-primary md:h-[5px] md:w-[18.584px] md:bg-white"
+                        ></div>
+                      </div>
+                      <h2
+                        class="text-[1.75rem] tracking-[1.5px] text-dark-gray md:text-[2.25rem]"
+                      >
+                        GROWTH
+                      </h2>
+                    </div>
+                    <p
+                      class="max-w-[700px] text-[0.9375rem] md:text-[1.125rem] md:leading-[28px] md:text-white lg:text-[20px]"
+                    >
+                      Save your time, recruit proper athlets for your team.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+            <div class="swiper-pagination max-md:py-[25px]"></div>
+          </div>
+        </div>
+        <!-- text content -->
+      </section>
+
+      <!-- <section class="line-height-normal mt-[20px]">
       <h1 class="text-[3.125rem] text-gray mx-[20px] mb-[16px]">PLAYERS</h1>
 
       <div class="relative flex justify-center">
@@ -315,94 +658,98 @@
           </div>
         </div>
     </section> -->
-  </main>
-  <script src="/javascript/swiper-bundle.min.js"></script>
-  <script>
-    let swiper_setting = {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    };
-
-    const breakpoint = window.matchMedia('(min-width:768px)');
-    var slider_nodes = document.querySelectorAll('.mySwiper');
-    var sliderWrappers = document.querySelectorAll('.slide-wrapper');
-    var swiperAllSlides = document.querySelectorAll('.swiper-slide');
-    var swiperAllPaginations = document.querySelectorAll('.swiper-pagination');
-    let sliders = [];
-    let mySwiper;
-    var classDeleted = false;
-
-    function loadSwiper(swiper_setting){
-  [].forEach.call(slider_nodes, function(slider_node) {
-    // do whatever
-    let swiper = new Swiper(slider_node, swiper_setting);
-    sliders.push(swiper);
-  });
-  return sliders;
-}
-
-    const breakpointChecker = function() {
-   // if larger viewport and multi-row layout needed
-   if ( breakpoint.matches === true ) {
-      // clean up old instances and inline styles when available
-      //remove all swiper class
-      slider_nodes.forEach(function(i){
-        i.classList.remove('swiper')
-      })
-      sliderWrappers.forEach(function(i){
-        i.classList.remove('swiper-wrapper')
-      })
-      swiperAllSlides.forEach(function(i){
-        i.classList.remove('swiper-slide')
-      })
-      swiperAllPaginations.forEach(function(i){
-        i.classList.remove('swiper-pagination', 'swiper-pagination-clickable', 'swiper-pagination-bullets', 'swiper-pagination-horizontal')
-        i.innerHTML = ''
-      })
-
-      classDeleted = true;
-
-      if ( sliders.length !== 0) {
-        let slidersInstance = document.querySelectorAll('.mySwiper')
-        slidersInstance.forEach(function(i){
-          if(i.swiper.initialized) {
-            i.swiper.destroy(true, true);
-            sliders.forEach(function(i) {
-              sliders.pop();
-            })
-          }
-        });
+    </main>
+    <script src="/javascript/swiper-bundle.min.js"></script>
+    <script>
+      let swiper_setting = {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
       };
-      // or/and do nothing
-      return;
-   // else if a small viewport and sinsgle column layout needed
-   } else if ( breakpoint.matches === false ) {
-    // add swiper class
-      if(classDeleted) {
-        slider_nodes.forEach(function(i){
-        i.classList.add('swiper')
-      })
-      sliderWrappers.forEach(function(i){
-        i.classList.add('swiper-wrapper')
-      })
-      swiperAllSlides.forEach(function(i){
-        i.classList.add('swiper-slide')
-      })
-      swiperAllPaginations.forEach(function(i){
-        i.classList.add('swiper-pagination')
-      })
+
+      const breakpoint = window.matchMedia("(min-width:768px)");
+      var slider_nodes = document.querySelectorAll(".mySwiper");
+      var sliderWrappers = document.querySelectorAll(".slide-wrapper");
+      var swiperAllSlides = document.querySelectorAll(".swiper-slide");
+      var swiperAllPaginations =
+        document.querySelectorAll(".swiper-pagination");
+      let sliders = [];
+      let mySwiper;
+      var classDeleted = false;
+
+      function loadSwiper(swiper_setting) {
+        [].forEach.call(slider_nodes, function (slider_node) {
+          // do whatever
+          let swiper = new Swiper(slider_node, swiper_setting);
+          sliders.push(swiper);
+        });
+        return sliders;
       }
-      // fire small viewport version of swiper
-      return loadSwiper(swiper_setting);
-   }
-};
 
-breakpoint.addListener(breakpointChecker);
-breakpointChecker();
+      const breakpointChecker = function () {
+        // if larger viewport and multi-row layout needed
+        if (breakpoint.matches === true) {
+          // clean up old instances and inline styles when available
+          //remove all swiper class
+          slider_nodes.forEach(function (i) {
+            i.classList.remove("swiper");
+          });
+          sliderWrappers.forEach(function (i) {
+            i.classList.remove("swiper-wrapper");
+          });
+          swiperAllSlides.forEach(function (i) {
+            i.classList.remove("swiper-slide");
+          });
+          swiperAllPaginations.forEach(function (i) {
+            i.classList.remove(
+              "swiper-pagination",
+              "swiper-pagination-clickable",
+              "swiper-pagination-bullets",
+              "swiper-pagination-horizontal",
+            );
+            i.innerHTML = "";
+          });
 
-  </script>
+          classDeleted = true;
 
-</body>
+          if (sliders.length !== 0) {
+            let slidersInstance = document.querySelectorAll(".mySwiper");
+            slidersInstance.forEach(function (i) {
+              if (i.swiper.initialized) {
+                i.swiper.destroy(true, true);
+                sliders.forEach(function (i) {
+                  sliders.pop();
+                });
+              }
+            });
+          }
+          // or/and do nothing
+          return;
+          // else if a small viewport and sinsgle column layout needed
+        } else if (breakpoint.matches === false) {
+          // add swiper class
+          if (classDeleted) {
+            slider_nodes.forEach(function (i) {
+              i.classList.add("swiper");
+            });
+            sliderWrappers.forEach(function (i) {
+              i.classList.add("swiper-wrapper");
+            });
+            swiperAllSlides.forEach(function (i) {
+              i.classList.add("swiper-slide");
+            });
+            swiperAllPaginations.forEach(function (i) {
+              i.classList.add("swiper-pagination");
+            });
+          }
+          // fire small viewport version of swiper
+          return loadSwiper(swiper_setting);
+        }
+      };
+
+      breakpoint.addListener(breakpointChecker);
+      breakpointChecker();
+    </script>
+  </body>
 </html>
